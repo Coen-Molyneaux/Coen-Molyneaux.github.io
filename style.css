@@ -1,99 +1,176 @@
+/* Clean, minimal portfolio CSS */
 body {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
     margin: 0;
     padding: 0;
-    background: #f9fafb;
-    color: #333;
     line-height: 1.6;
-}
-
-header {
-    text-align: center;
-    padding: 2rem 1rem;
-    background: #1a1a1a;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0f172a;
     color: white;
-}
-
-.profile-pic {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+  
+  header p {
+    margin: 0.75rem 0 0 0;
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    font-weight: 400;
+  }
+  
+  .profile-pic {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-}
-
-nav a {
-    margin: 0 1rem;
-    color: #00bcd4;
+    margin-bottom: 1rem;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Navigation */
+  nav {
+    margin-top: 1.5rem;
+  }
+  
+  nav a {
+    margin: 0 1.5rem;
+    color: #60a5fa;
     text-decoration: none;
-}
-
-section {
-    max-width: 800px;
-    margin: 2rem auto;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #93c5fd;
+  }
+  
+  /* Main content */
+  section {
+    max-width: 900px;
+    margin: 3rem auto;
     padding: 0 1rem;
-}
-
-.project {
-    background-color: white;
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .project:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-  }
-  .project h2 {
-    margin-top: 0;
-    font-size: 1.2rem;
+  
+  section h1 {
+    font-size: 2rem;
     color: #0f172a;
+    margin-bottom: 2rem;
+    text-align: center;
   }
-  .project p {
-    margin: 0.4rem 0;
+  
+  /* Project/Course cards */
+  .project,
+  .course {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .project:hover,
+  .course:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #cbd5e1;
+  }
+  
+  .project h2,
+  .course h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    color: #0f172a;
+    font-weight: 600;
+  }
+  
+  .project p,
+  .course p {
+    margin: 0.5rem 0;
     font-size: 0.95rem;
     color: #475569;
-    line-height: 1.5;
+    line-height: 1.6;
   }
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #eee;
-    color: #666;
-    font-size: 0.9rem;
-}
-
-.links {
-    text-decoration: none;
-    color: #0078d7;
-    font-weight: 500;
-    position: relative;
-    transition: color 0.2s ease;
-}
-
-.links:hover {
-    color: #d47f00;
-}
-
-.links:visited {
-    color: #0078d7;
-}
-
-.links a {
-    text-decoration: none;
-    color: #0078d7;
-    font-weight: 500;
-    position: relative;
-    transition: color 0.2s ease;
-}
-
-.links a:hover {
-    color: #d47f00;
-}
-
-.links a:visited {
-    color: #0078d7;
-}
   
+  /* Links */
+  .links a,
+  a.links {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .links a:hover,
+  a.links:hover {
+    color: #1d4ed8;
+    border-bottom-color: #1d4ed8;
+  }
+  
+  .links a:visited,
+  a.links:visited {
+    color: #2563eb;
+  }
+  
+  /* Link separators */
+  .links {
+    font-size: 0.9rem;
+  }
+  
+  .links a + a::before {
+    content: " | ";
+    color: #cbd5e1;
+    margin: 0 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.875rem;
+    color: #64748b;
+    background-color: #f1f5f9;
+    margin-top: 4rem;
+    border-top: 1px solid #e2e8f0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    header {
+      padding: 2rem 1rem;
+    }
+    
+    header h1 {
+      font-size: 2rem;
+    }
+    
+    nav a {
+      margin: 0 0.75rem;
+      font-size: 0.9rem;
+    }
+    
+    section {
+      margin: 2rem auto;
+    }
+    
+    .project,
+    .course {
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
