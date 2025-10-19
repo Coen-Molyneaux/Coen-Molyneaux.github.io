@@ -53,4 +53,24 @@ body {
     color: #666;
     font-size: 0.9rem;
   }
+  .links a {
+    text-decoration: none;
+    color: #0078d7;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.2s ease;
+  }
+  
+  .links a:hover {
+    color: #00bcd4;
+  }
+  
+  .links a::after {
+    content: " →";
+    transition: transform 0.2s ease;
+  }
+  
+  .links a:hover::after {
+    transform: translateX(4px);
+  }
   
