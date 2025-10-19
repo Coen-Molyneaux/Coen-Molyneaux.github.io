@@ -33,14 +33,28 @@
 
     <div class="project">
       <h3>Pet Rescue: Autonoumous Robot</h3>
-      <p>My ENPH 253 team (<a href="https://www.linkedin.com/in/luca-jones1/">Luca Jones</a>, 
+      <p> My ENPH 253 team (<a href="https://www.linkedin.com/in/luca-jones1/">Luca Jones</a>, 
         <a href="https://www.linkedin.com/in/harchetan-chohan-504557327/">Harchetan Chohan</a>, 
-        <a href="https://www.linkedin.com/in/taichikamei/">Taichi Kamei</a>) designed and built an autonomous 
-        rescue robot capable of navigating a complex obstacle course, identifying and retrieving “pet” targets, 
-        and returning them safely to the home zone — all without human control. 
-        The robot integrates computer vision, sensor fusion, and PID-based motion control on an ESP32 microcontroller. 
-        Over the course of the summer, we iterated through mechanical, electrical, and software subsystems to achieve 
-        reliable autonomous performance.</p>
+        <a href="https://www.linkedin.com/in/taichikamei/">Taichi Kamei</a>) 
+        designed and built an autonomous rescue robot capable of navigating a complex obstacle course, 
+        identifying and retrieving “pet” targets, and returning them safely to the home zone, all without human control.
+         
+        The brain of our robot was an **ESP32 microcontroller**, chosen for its power and verstaility. A custom 
+        state machine was built to manage the various modes of operation such as line following and pet detection.
+        
+        The navigation of the robot relies on infared LED's and phototransistors to detect the line of electrical 
+        that traces throughout the entire course. By reading which phototransistors are on or off, the robot can 
+        determine its relative position to the line and make adjustments using **PID control** to stay on course. 
+
+        To identify and rescue the pets our robot utilizes 
+        <a href="https://www.digikey.ca/en/product-highlight/s/stmicroelectronics/vl53l8cx-time-of-flight-sensor">**2D time-of-flight sensors**</a>
+        to detect the presence of pet targets. Next to grab the pets our robot uses a custom a **planar 2-bar linkage arm** 
+        and a **4-bar claw** to pick up the pet and store it in the bucket that is on board the robot. The arm and claw
+        were built using **3D printing**, **lazer cutting**, and **water-jet cutting**.
+    
+        To lift the bucket adn hook it to the ziplien we designed a **continous cascade mechansim** that uses
+        a dc motor to wind a rope around a spool, lifting the bucket vertically.
+    </p>
         <p class="links">
             <a href="https://github.com/Luca-Jones/enph-253-pet-rescue" target="_blank">GitHub Repo →</a> |
             <a href="https://youtu.be/9oEp3KTkgeU" target="_blank">Watch It in Action →</a> |
