@@ -1,4 +1,25 @@
 /* Clean, minimal portfolio CSS */
+.home-float {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transition: all 0.2s ease;
+    z-index: 1000;
+  }
+  
+  .home-float:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  }
+
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f8fafc;
