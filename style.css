@@ -5,64 +5,84 @@ body {
     background: #f9fafb;
     color: #333;
     line-height: 1.6;
-  }
-  
-  header {
+}
+
+header {
     text-align: center;
     padding: 2rem 1rem;
     background: #1a1a1a;
     color: white;
-  }
-  
-  .profile-pic {
+}
+
+.profile-pic {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-  }
-  
-  nav a {
+}
+
+nav a {
     margin: 0 1rem;
     color: #00bcd4;
     text-decoration: none;
-  }
-  
-  section {
+}
+
+section {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
-  }
-  
-  .project {
+}
+
+.project {
     background: white;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  }
-  
-  .project img {
+}
+
+.project img {
     width: 100%;
     border-radius: 8px;
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 1rem;
     background: #eee;
     color: #666;
     font-size: 0.9rem;
-  }
+}
 
-  .links {
+.links {
     text-decoration: none;
     color: #0078d7;
     font-weight: 500;
     position: relative;
     transition: color 0.2s ease;
-  }
-  
-  .links:hover {
+}
+
+.links:hover {
     color: #d47f00;
-  }
+}
+
+.links:visited {
+    color: #0078d7;
+}
+
+.links a {
+    text-decoration: none;
+    color: #0078d7;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.links a:hover {
+    color: #d47f00;
+}
+
+.links a:visited {
+    color: #0078d7;
+}
   
