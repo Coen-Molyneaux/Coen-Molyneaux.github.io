@@ -93,5 +93,12 @@
   <footer>
     <p>© 2025 Coen Molyneaux.</p>
   </footer>
+
+  <script>
+    document.querySelectorAll('.links a').forEach(link => {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  </script>
 </body>
 </html>

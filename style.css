@@ -65,7 +65,6 @@ body {
     color: #d47f00;
   }
   
-  
   .links a:hover::after {
     transform: translateX(4px);
   }
