@@ -62,13 +62,9 @@ body {
   }
   
   .links a:hover {
-    color: #00bcd4;
+    color: #d47f00;
   }
   
-  .links a::after {
-    content: " ↗";
-    transition: transform 0.2s ease;
-  }
   
   .links a:hover::after {
     transform: translateX(4px);
