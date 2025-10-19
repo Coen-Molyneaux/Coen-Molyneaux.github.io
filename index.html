@@ -32,34 +32,49 @@
     <h2>Projects</h2>
 
     <div class="project">
-      <h3>Pet Rescue: Autonoumous Robot</h3>
-      <p> My ENPH 253 team (<a href="https://www.linkedin.com/in/luca-jones1/">Luca Jones</a>, 
-        <a href="https://www.linkedin.com/in/harchetan-chohan-504557327/">Harchetan Chohan</a>, 
-        <a href="https://www.linkedin.com/in/taichikamei/">Taichi Kamei</a>) 
-        designed and built an autonomous rescue robot capable of navigating a complex obstacle course, 
-        identifying and retrieving “pet” targets, and returning them safely to the home zone, all without human control.
-         
-        The brain of our robot was an **ESP32 microcontroller**, chosen for its power and verstaility. A custom 
-        state machine was built to manage the various modes of operation such as line following and pet detection.
-        
-        The navigation of the robot relies on infared LED's and phototransistors to detect the line of electrical 
-        that traces throughout the entire course. By reading which phototransistors are on or off, the robot can 
-        determine its relative position to the line and make adjustments using **PID control** to stay on course. 
+        <h3>Pet Rescue: Autonomous Robot</h3>
 
-        To identify and rescue the pets our robot utilizes 
-        <a href="https://www.digikey.ca/en/product-highlight/s/stmicroelectronics/vl53l8cx-time-of-flight-sensor">**2D time-of-flight sensors**</a>
-        to detect the presence of pet targets. Next to grab the pets our robot uses a custom a **planar 2-bar linkage arm** 
-        and a **4-bar claw** to pick up the pet and store it in the bucket that is on board the robot. The arm and claw
-        were built using **3D printing**, **lazer cutting**, and **water-jet cutting**.
-    
-        To lift the bucket adn hook it to the ziplien we designed a **continous cascade mechansim** that uses
-        a dc motor to wind a rope around a spool, lifting the bucket vertically.
-    </p>
-        <p class="links">
-            <a href="https://github.com/Luca-Jones/enph-253-pet-rescue" target="_blank">GitHub Repo →</a> |
-            <a href="https://youtu.be/9oEp3KTkgeU" target="_blank">Watch It in Action →</a> |
-            <a href="https://www.cbc.ca/player/play/video/9.6862226" target="_blank">News Article →</a>
+        <p>
+          My ENPH 253 team (<a href="https://www.linkedin.com/in/luca-jones1/">Luca Jones</a>,
+          <a href="https://www.linkedin.com/in/harchetan-chohan-504557327/">Harchetan Chohan</a>,
+          <a href="https://www.linkedin.com/in/taichikamei/">Taichi Kamei</a>)
+          designed and built an autonomous rescue robot capable of navigating a complex obstacle course,
+          identifying and retrieving “pet” targets, and returning them safely to the home zone, all without human control.
         </p>
+        
+        <p>
+          The brain of our robot was an <strong>ESP32 microcontroller</strong>, chosen for its power and versatility.
+          A custom state machine was built to manage the various modes of operation such as line following and pet detection.
+        </p>
+        
+        <p>
+          The navigation of the robot relies on infrared LEDs and phototransistors to detect the line of electrical tape
+          that traces throughout the entire course. By reading which phototransistors are on or off, the robot can determine
+          its relative position to the line and make adjustments using <strong>PID control</strong> to stay on course.
+        </p>
+        
+        <p>
+          To identify and rescue the pets, our robot utilizes
+          <a href="https://www.digikey.ca/en/product-highlight/s/stmicroelectronics/vl53l8cx-time-of-flight-sensor">
+            <strong>2D time-of-flight sensors</strong>
+          </a>
+          to detect the presence of pet targets. To grab the pets, our robot uses a custom
+          <strong>planar 2-bar linkage arm</strong> and a <strong>4-bar claw</strong> to pick up the pet and store it
+          in the bucket on board the robot. The arm and claw were built using
+          <strong>3D printing</strong>, <strong>laser cutting</strong>, and <strong>water-jet cutting</strong>.
+        </p>
+        
+        <p>
+          To lift the bucket and hook it to the zipline, we designed a
+          <strong>continuous cascade mechanism</strong> that uses a DC motor to wind a rope around a spool,
+          lifting the bucket vertically.
+        </p>
+        
+        <p class="links">
+          <a href="https://github.com/Luca-Jones/enph-253-pet-rescue">GitHub Repo</a> |
+          <a href="https://youtu.be/9oEp3KTkgeU">Watch It in Action</a> |
+          <a href="https://www.cbc.ca/player/play/video/9.6862226">News Article</a>
+        </p>        
     </div>
   </section>
 
