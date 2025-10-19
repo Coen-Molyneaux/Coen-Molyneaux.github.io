@@ -32,12 +32,12 @@
     <h2>Projects</h2>
 
     <div class="project">
-        <h3>Pet Rescue: Autonomous Robot (May 2025 - August 2025)</h3>
+        <h3>Pet Rescue: Autonomous Robot (Summer 2025)</h3>
 
         <p>
-          My ENPH 253 team (<a href="https://www.linkedin.com/in/luca-jones1/" class="links">Luca Jones</a>,
-          <a href="https://www.linkedin.com/in/harchetan-chohan-504557327/" class="links">Harchetan Chohan</a>,
-          <a href="https://www.linkedin.com/in/taichikamei/" class="links">Taichi Kamei</a>)
+          My ENPH 253 team (<p class="links"><a href="https://www.linkedin.com/in/luca-jones1/"></a></p>Luca Jones</a>,
+          <p class="links"><a href="https://www.linkedin.com/in/harchetan-chohan-504557327/"></a></p>Harchetan Chohan</a>,
+          <p class="links"><a href="https://www.linkedin.com/in/taichikamei/"></a></p>Taichi Kamei</a>)
           designed and built an autonomous rescue robot capable of navigating a complex obstacle course,
           identifying and retrieving “pet” targets, and returning them safely to the home zone, all without human control.
         </p>
@@ -75,16 +75,33 @@
     </div>
 
     <div class="project">
-        <h3> OCR and Translation Pipline (January 2025 - April 2025)</h3>
-        During my coop at Condor Energies, I developed a pipleine that automates the process of translating documents from Uzbek, Russian
-        and Kazakh to English. 
-        
-        For this project I had to handle a wide variety of document types such as scanned PDFs, Word, Excel and PowerPoint files. Each had 
-        its own challenges when it came to extracting text as well as writing the translated text back into the original format.
+        <p>
+            <h3> Document Translator (Winter 2025)</h3>
+            During my coop at Condor Energies, I developed a pipleine that automates the process of translating documents from Uzbek, Russian
+            and Kazakh to English. For this project I had to handle a wide variety of document types such as scanned PDFs, Word, Excel and PowerPoint files. Each had 
+            its own challenges when it came to extracting text as well as writing the translated text back into the original format.
+        </p>
 
-        <h4> Scanned PDFs </h4>
-        This involved using Optical Character Recognition (OCR) to extract text from scanned documents such as old
-        drilling reports and well logs. The extra
+        <p>
+            <h4> Scanned PDFs </h4>
+            This involved using Optical Character Recognition (OCR) to extract text from scanned documents such as old
+            drilling reports and well logs. Then using the Google translate API to translate the extracted text before
+            finally writing the translated text back into a new PDF that closely resembled the original document. A particular challenge
+            with this task was ensuring the formatting and layout of the original document was preserved in the translated version. For most PDFs
+            I was dealing with they were scanned documents, so in order to write the translated text back to the PDF I had to 'remember' the pixel
+            location of each word in the original document and then write the translated text back to those same locations. 
+
+            Here is a first attempt at writing translated text back to a scanned PDF (blurred for confidentiality):
+
+            <img src="assets/first_attempt_ocr.png">
+
+            After a lot more iteration I was able to get much better results that preserved the original formatting and layout of the document (again blurred for confidentiality):
+            <img src="assets/second_attempt_ocr.png">
+
+        </p>
+
+
+
     </div>
   </section>
 
