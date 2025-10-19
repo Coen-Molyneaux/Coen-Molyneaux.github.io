@@ -33,7 +33,7 @@ section {
     padding: 0 1rem;
 }
 
-.course {
+.project {
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -41,16 +41,16 @@ section {
     margin-bottom: 1.5rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .course:hover {
+  .project:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 16px rgba(0,0,0,0.08);
   }
-  .course h2 {
+  .project h2 {
     margin-top: 0;
     font-size: 1.2rem;
     color: #0f172a;
   }
-  .course p {
+  .project p {
     margin: 0.4rem 0;
     font-size: 0.95rem;
     color: #475569;
