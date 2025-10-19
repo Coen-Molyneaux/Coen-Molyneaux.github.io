@@ -91,16 +91,40 @@
             with this task was ensuring the formatting and layout of the original document was preserved in the translated version. For most PDFs
             I was dealing with they were scanned documents, so in order to write the translated text back to the PDF I had to 'remember' the pixel
             location of each word in the original document and then write the translated text back to those same locations. 
-
+        </p>
+            
+        <p>
             Here is a first attempt at writing translated text back to a scanned PDF (blurred for confidentiality):
-
-            <img src="assets/first_attempt_ocr.png">
-
-            After a lot more iteration I was able to get much better results that preserved the original formatting and layout of the document (again blurred for confidentiality):
-            <img src="assets/second_attempt_ocr.png">
-
+            <img src="assets/first_attempt_ocr.png"> 
         </p>
 
+        <p>
+            After a lot more iteration I was able to get much better results that preserved the original formatting and layout of the document (again blurred for confidentiality):
+            <img src="assets/second_attempt_ocr.png">
+        </p>
+
+        <p>
+            <h4> Word, Excel, PowerPoint </h4>
+            For these document types I used the python-docx, openpyxl and python-pptx libraries to extract text from the documents,
+            translate them using the Google Translate API, and then write the translated text back into new documents. This was much more
+            straightforward than dealing with scanned PDFs, but still required careful handling to ensure formatting and layout were preserved. 
+        </p>
+
+        <p>
+            Here is an example of translating a Word document from Russian to English (blurred for confidentiality):
+            <img src="assets/word_blurred.png">
+        </p>
+    </div>
+
+    <div class="project">
+        <h3> Production Forecasting Automation Tool (Winter 2025)</h3>
+        <p>
+            During my coop at <a class=links href="https://condorenergies.ca/">Condor Energies</a>, I developed an automation tool
+            to streamline the production forecasting process for natural gas wells. The tool ingests historical production data, 
+            cleans and preprocesses it, and then applies decline curve analysis to forecast future production rates. The tool generates field-level 
+            and well-level forecasts, complete with visualizations and summary reports. The tool successfully reduced about 3 days worth of work for a resevoir engineer 
+            down to just a few hours once per month.
+        </p>
 
 
     </div>
