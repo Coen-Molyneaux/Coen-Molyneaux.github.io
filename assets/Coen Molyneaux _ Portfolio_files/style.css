@@ -14,13 +14,13 @@
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: #275adb;
+    color: #0f172a;
     font-weight: 600;
   }
 
   /* ---------- Profile Picture ---------- */
   .profile-pic {
-  width: 600px;
+  width: 500px;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
@@ -40,58 +40,30 @@
   background-color: #ffffff;
   color: #ffffff;
   text-align: center;
-  margin-top: 2rem;
   }
 
   /* ---------- Navigation ---------- */
-  nav {
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #e5e7eb; /* light gray line */
-    padding-bottom: 0.5rem; /* space between nav links and line */
-  }
-  
+
+
   nav a {
-    margin: 0 1.5rem;
-    color: #60a5fa;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.5rem; 
-    transition: color 0.2s ease;
+  margin: 0 1.5rem;
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem; 
+  transition: color 0.2s ease;
   }
 
   nav a:hover {
-    color: #d8811d;
+  color: #d8811d;
   }
 
   /* ---------- Main Content ---------- */
   section {
-    max-width: 900px;
-    margin: 1rem auto;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
   }
-
-  section h1 {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    color: #000000;
-    font-weight: 600;
-  }
-  section h2 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    color: #515151;
-    font-weight: 600;
-  }
-
-  /* ---------- Section ---------- */
-  section {
-    max-width: 900px;
-    margin: 3rem auto;
-    padding: 0 1rem;
-    }
 
   /* ---------- Cards (Projects & Courses) ---------- */
   .project {
@@ -128,7 +100,7 @@
     font-weight: 600;
   }
 
-  .project-footer {
+  .project-date {
     font-size: 0.8rem;
     color: #64748b;
     font-weight: 500;
@@ -175,7 +147,7 @@
   }
 
   /* ---------- Responsive ---------- */
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
   .home-float {
     top: 15px;
     left: 15px;
@@ -219,4 +191,4 @@
   .course h3 {
     font-size: 1rem;
   }
-}
+  }

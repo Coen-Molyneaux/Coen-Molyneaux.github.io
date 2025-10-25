@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coen Molyneaux | Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="bookmarks.html">Bookmarks</a>
+      <a href="resume.html">Resume</a>
+      <!--<a href="courses.html">Courses</a> -->
+    </nav>
+  </header>
+
+<section id="projects">
+  <h1>Projects</h1>
+
+  <h2>Ongoing Projects</h2>
+
+  <div class="project">   
+    <h1> Neural Network for Predicting Formation Properties in Oil & Gas Wells - Ongoing</h1>
+      <strong> Software Stack:</strong> Python, TensorFlow, <a class=links href="https://www.kaggle.com/datasets/prateekvyas/well-log-data">Kaggle </a> 
+      <p>
+          Training a small neural net to predict rock properties such as porosity and permeability from well log data. The dataset I am training the neural net on is rougly 8000 lines of well log data from Kansas Geological Survey. This dataset contain data on resistivity, spontaneous potential, gamma ray, bulk density, neutron and density porosity data. 
+      </p>
+      <p>
+          The aim is to use typical well log data like neutron and gamma ray to predict more complex rock properties like porosity and permeability that are more difficult and expensive to measure directly. By training a neural network on this data, I hope to be able to accurately predict these rock properties from the more easily obtainable well log data.
+      </p>
+      <span class="project-footer">Last updated October 2025</span>
+  </div>
+
+  <div class="project">
+    <h1> Neural Networks and Board Games - Ongoing</h1>
+      <strong> Software Stack:</strong> React, Python, TensorFlow
+      <p>
+        The plan for this project is to extend my very first personal project (the TicTacToe game) by; adding bots powered by neural nets, a frontend, and more board games.
+      </p>
+      <p>
+        On the neural net side of things I want to get an understanding for implementing different training methods such as imitation learning and reinforcement learning. 
+      </p>
+      <p>
+        On the web devlopment side I using this project to understand a modern framework, React, understand the basics of hosting, and build a simple backend to link the trained neural nets with the user interface a simple backend.
+      </p>
+      <span class="project-footer">Last updated October 2025</span>
+  </div>
+
+  <h2>Completed Projects</h2>
+
+  <div class="project">
+    <h1>Pet Rescue: Autonomous Robot</h1>
+      <strong> Software Stack:</strong> C++, C, Python, KiCad, Onshape </br>
+      <strong> Fabrication Stack:</strong> Waterjet, Laser Cutting, Milling, Turning (Lathe), 3D Printing
+        <p>
+          My ENPH 253 team (<a class="links" href="https://www.linkedin.com/in/luca-jones1">Luca Jones</a>, <a class="links" href="https://www.linkedin.com/in/harchetan-chohan-504557327">Harchetan Chohan</a>, <a class="links" href="https://www.linkedin.com/in/taichikamei">Taichi Kamei</a>) designed and built an autonomous rescue robot capable of navigating a complex obstacle course, identifying and retrieving “pet” targets, and returning them safely to the home zone, all without human control.
+        </p>
+        
+        <p>
+          The brain of our robot was an ESP32 microcontroller, it was controlled by a custom state machine built to manage the various modes of operation such as line following and pet decection
+        </p>
+          
+        <p>
+          For line following, we used PID control in combination with infrared LEDs and phototransistors. Utilizing the low reflectance of the electrical tapethe robot was able to determine it position relative to the line. The PID algorithm then continuously adjusted the robots direction to keep in on track.
+        </p>
+          
+        <p>
+          To identify the pets, our robot used a 2D time-of-flight sensors to detect the presence of pet targets. The time of flight sensor collected a discrete depth map of the robots surrondings, and by using the cylindrical nature of the pets could be distinguished from other objects. 
+        </p>
+
+
+        <p>
+          Once we detected a pet we needed a way to pick up the pet. We fabricated a custom 2-link planar manipulator arm paired with a 4-bar linkage claw. To control the rotation of the arm, we combined a DC motor, magnetic encoder, and PID control, effectively creating our own servo to meet size contraints. The arm's bending motion and claw's closing action were controlled by standard 25kg servos.
+        </p>
+
+
+        <p>
+          There were a few strategies to return the pets to the safe area. We decided on the bucket-and-zipline strategy. To lift the bucket to the zipline, we designed a continuous cascade lifting mechanism driven by a DC motor that winds paracord around a spool
+        </p>
+        
+        <p class="links">
+            <a class=links href="https://github.com/Luca-Jones/enph-253-pet-rescue">GitHub Repo</a> | <a class=links href="https://youtu.be/9oEp3KTkgeU">Watch It in Action</a> | <a class=links href="https://www.cbc.ca/player/play/video/9.6862226">News Article</a> 
+        </p>    
+        <span class="project-footer">Last updated August 2025</span>    
+  </div>
+
+  <div class="project">
+    <h1> Document Translator</h1>
+      <strong> Software Stack:</strong> Python, <a class=links href="https://docs.cloud.google.com/sdk">Google Cloud SDK</a> (Translate, Cloud Vision, Cloud Storage)
+      <p>
+          During my internship at Condor Energies, I developed a pipleine that automates the process of translating documents from Uzbek, Russian and Kazakh to English. For this project I had to handle a wide variety of document types such as scanned PDFs, Word, Excel and PowerPoint files. Each had its own challenges when it came to extracting text as well as writing the translated text back into the original format.
+      </p>
+      <h2> Scanned PDFs </h2>
+        <p>  
+            This involved using Optical Character Recognition (OCR) to extract text from scanned documents such as old drilling reports and well logs. Then using the Google translate API to translate the extracted text before finally writing the translated text back into a new PDF that closely resembled the original document. A particular challenge with this task was ensuring the formatting and layout of the original document was preserved in the translated version. For most PDFs I was dealing with they were scanned documents, so in order to write the translated text back to the PDF I had to 'remember' the pixel location of each word in the original document and then write the translated text back to those same locations. 
+        </p>
+      <h2> Word, Excel, PowerPoint </h2>
+        <p>
+            For these document types I used the python-docx, openpyxl and python-pptx libraries to extract text from the documents, translate them using the Google Translate API, and then write the translated text back into new documents. This was much more straightforward than dealing with scanned PDFs, but still required careful handling to ensure formatting and layout were preserved. 
+        </p>
+      <span class="project-footer">Last updated May 2025</span>
+  </div>
+
+  <div class="project">
+    <h1> Production Forecasting Automation Tool</h1>
+      <strong> Software Stack:</strong> Microsoft VBA <br/>
+      <p>
+          During my internship at Condor Energies, I developed an automation tool to streamline the production forecasting process for natural gas wells. The tool ingests historical production data, cleans and preprocesses it, and then applies <a class=links href="https://manual.whitson.com/modules/well-performance/decline-curve-analysis/">decline curve</a> analysis to forecast future production rates. The tool generates field-level and well-level forecasts, complete with visualizations and summary reports. The tool successfully reduced about 3 days worth of work for a resevoir engineer down to just a few hours once per month.
+      </p>
+      <span class="project-footer">Last updated May 2025</span>
+  </div>
+
+  <div class="project">
+    <h1> Tic Tac Toe Game with Object-Oriented-Principles</h1>
+      <strong> Software Stack:</strong> Java <br/>
+      <p>
+          The aim of this project was just to create a simple Tic Tac Toe game in Java while applying the basics of Object-Oriented Programming (OOP). I started this project during the summer before my second year to get some pratice with Java before starting my CPEN 221 course. 
+      </p>
+      <a class="links" href="https://github.com/Coen-Molyneaux/Tic-Tac-Toe-Game">Github Repo</a> </br>
+      <span class="project-footer">Last updated August 2024</span>
+  </div>
+  </section>
+
+  <footer>
+    If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn. </br>
+    <a class="links" href="mailto:coen.molyneaux@shaw.ca">coen.molyneaux@shaw.ca</a> ✉️ | <a class="links" href="https://github.com/Coen-Molyneaux">Github</a> 🖥️ | <a class="links" href="https://www.linkedin.com/in/coenmolyneaux">LinkedIn</a> ☕️
+    <p>© 2025 Coen Molyneaux.</p>
+  </footer>
+</body>
+</html>
