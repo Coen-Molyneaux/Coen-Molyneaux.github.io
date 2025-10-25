@@ -1,33 +1,43 @@
-/* ---------- Base Styles ---------- */
-body {
+  /* ---------- Base Styles ---------- */
+  body {
   background-color: #ffffff;
   color: #000000;
   font-family: 'Inter', sans-serif;
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   line-height: 1.6;
-}
+  font-size: 1rem;
+  }
 
-/* ---------- Intro Section ---------- */
-.intro {
+  h1 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #0f172a;
+    font-weight: 600;
+  }
+
+  /* ---------- Intro Section ---------- */
+  .intro {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  }
 
-.intro-content {
+  .intro-content {
   text-align: center;
   max-width: 700px;
-}
+  }
 
-.intro-content h1 {
+  .intro-content h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-}
+  }
 
-/* ---------- Profile Picture ---------- */
-.profile-pic {
+  /* ---------- Profile Picture ---------- */
+  .profile-pic {
   width: 500px;
   height: auto;
   border-radius: 20px;
@@ -36,118 +46,131 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+  }
 
-.profile-pic:hover {
+  .profile-pic:hover {
   transform: scale(1.03);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
-}
+  }
 
-/* ---------- Header ---------- */
-header {
+  /* ---------- Header ---------- */
+  header {
   background-color: #ffffff;
   color: #ffffff;
   text-align: center;
-}
+  }
 
-header h1 {
+  header h1 {
   margin: 0;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: -0.025em;
-}
+  }
 
-header p {
+  header p {
   margin: 0.75rem 0 0 0;
   font-size: 1.1rem;
   color: #cbd5e1;
   font-weight: 400;
-}
+  }
 
-/* ---------- Navigation ---------- */
-nav {
+  /* ---------- Navigation ---------- */
+  nav {
   margin-top: 1.5rem;
-}
+  }
 
-nav a {
+  nav a {
   margin: 0 1.5rem;
   color: #60a5fa;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.5rem; 
   transition: color 0.2s ease;
-}
+  }
 
-nav a:hover {
+  nav a:hover {
   color: #d8811d;
-}
+  }
 
-/* ---------- Main Content ---------- */
-section {
+  /* ---------- Main Content ---------- */
+  section {
   max-width: 900px;
   margin: 3rem auto;
   padding: 0 1rem;
-}
+  }
 
-section h1 {
-  font-size: 2rem;
-  color: #ffffff;
-  margin-bottom: 2rem;
-  text-align: center;
-}
+  /* ---------- Cards (Projects & Courses) ---------- */
+  .project {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+  }
 
+  .project:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #cbd5e1;
+  }
 
+  .project h1 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #0f172a;
+    font-weight: 600;
+  }
 
-/* ---------- Cards (Projects & Courses) ---------- */
-.project {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #e2e8f0;
-  transition: all 0.2s ease;
-}
+  .project h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #0f172a;
+    font-weight: 600;
+  }
 
-.project:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: #cbd5e1;
-}
+  .project-date {
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+  }
 
-.project h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  font-size: 1.1rem;
-  color: #0f172a;
-  font-weight: 600;
-}
+  .project strong {
+    font-size: 1rem;
+    color: #0f172a;
+    font-weight: 600;
+  }
 
-.project p {
-  margin: 0.5rem 0;
-  font-size: 0.95rem;
-  color: #475569;
-  line-height: 1.6;
-}
+  .project p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #475569;
+    line-height: 1.6;
+  }
 
-/* ---------- Links ---------- */
-.links a,
-a.links {
+  /* ---------- Links ---------- */
+  .links a,
+  a.links {
   color: #60a5fa;
   text-decoration: none;
   font-weight: 500;
   border-bottom: 1px solid transparent;
   transition: color 0.2s ease;
-}
+  }
 
-.links a:hover,
-a.links:hover {
+  .links a:hover,
+  a.links:hover {
   color: #d8811d;
   border-bottom-color: #d8811d;
-}
+  }
 
-/* ---------- Footer ---------- */
-footer {
+  /* ---------- Footer ---------- */
+  footer {
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.875rem;
@@ -155,10 +178,10 @@ footer {
   background-color: #f1f5f9;
   margin-top: 4rem;
   border-top: 1px solid #e2e8f0;
-}
+  }
 
-/* ---------- Responsive ---------- */
-@media (max-width: 768px) {
+  /* ---------- Responsive ---------- */
+  @media (max-width: 768px) {
   .home-float {
     top: 15px;
     left: 15px;
@@ -202,4 +225,4 @@ footer {
   .course h3 {
     font-size: 1rem;
   }
-}
+  }
