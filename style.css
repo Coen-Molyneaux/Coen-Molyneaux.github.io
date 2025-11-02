@@ -1,180 +1,181 @@
-  /* ---------- Base Styles ---------- */
-  body {
-  background-color: #ffffff;
-  color: #000000;
+/* ---------- Base Styles ---------- */
+body {
+  background-color: #282828; /* Gruvbox dark background */
+  color: #ebdbb2; /* Gruvbox light foreground */
   font-family: 'Inter', sans-serif;
   margin-top: 0;
   padding: 0;
   line-height: 1.6;
   font-size: 1rem;
-  }
+}
 
-  h1 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    color: #275adb;
-    font-weight: 600;
-  }
+h1 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fe8019; /* Gruvbox bright orange */
+  font-weight: 600;
+}
 
-  /* ---------- Profile Picture ---------- */
-  .profile-pic {
+/* ---------- Profile Picture ---------- */
+.profile-pic {
   width: 600px;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
   padding: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+  border: 3px solid #3c3836; /* Gruvbox dark1 */
+}
 
-  .profile-pic:hover {
+.profile-pic:hover {
   transform: scale(1.03);
-  box-shadow: 0 12px 32px #ff880088;
-  }
+  box-shadow: 0 12px 32px rgba(254, 128, 25, 0.4); /* Orange glow */
+}
 
-  /* ---------- Header ---------- */
-  header {
-  background-color: #ffffff;
-  color: #ffffff;
+/* ---------- Header ---------- */
+header {
+  background-color: #3c3836; /* Gruvbox dark1 */
+  color: #ebdbb2;
   text-align: center;
-  margin-top: 2rem;
-  }
+  padding: 1rem;
+}
 
-  /* ---------- Navigation ---------- */
-  nav {
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #e5e7eb; /* light gray line */
-    padding-bottom: 0.5rem; /* space between nav links and line */
-  }
-  
-  nav a {
-    margin: 0 1.5rem;
-    color: #60a5fa;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.5rem; 
-    transition: color 0.2s ease;
-  }
+/* ---------- Navigation ---------- */
+nav {
+  background-color:#3c3836;
+  padding: 1rem;
+}
 
-  nav a:hover {
-    color: #d8811d;
-  }
+nav a {
+  margin: 0 1.5rem;
+  color: #fabd2f; /* Gruvbox bright yellow */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: color 0.2s ease;
+}
 
-  /* ---------- Main Content ---------- */
-  section {
-    max-width: 900px;
-    margin: 1rem auto;
-  }
+nav a:hover {
+  color: #fe8019; /* Gruvbox bright orange */
+}
 
-  section h1 {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    color: #000000;
-    font-weight: 600;
-  }
-  section h2 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    color: #515151;
-    font-weight: 600;
-  }
+/* ---------- Main Content ---------- */
+section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
 
-  /* ---------- Section ---------- */
-  section {
-    max-width: 900px;
-    margin: 3rem auto;
-    padding: 0 1rem;
-    }
+section h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #ebdbb2; /* Gruvbox light foreground */
+  font-weight: 600;
+}
 
-  /* ---------- Cards (Projects & Courses) ---------- */
-  .project {
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border: 1px solid #e2e8f0;
-    transition: all 0.2s ease;
-  }
+section p {
+  text-align: center;
+}
 
-  .project:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px #ff880088;
-    border-color: #cbd5e1;
-  }
+section h2 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #a89984; /* Gruvbox gray */
+  font-weight: 600;
+}
 
-  .project h1 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    color: #0f172a;
-    font-weight: 600;
-  }
+/* ---------- Cards (Projects & Courses) ---------- */
+.project {
+  background-color: #3c3836; /* Gruvbox dark1 */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 2px solid #504945; /* Gruvbox dark2 */
+  transition: all 0.3s ease;
+}
 
-  .project h2 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1rem;
-    color: #0f172a;
-    font-weight: 600;
-  }
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: #d79921; /* Gruvbox yellow */
+  background-color: #504945; /* Slightly lighter on hover */
+}
 
-  .project-footer {
-    font-size: 0.8rem;
-    color: #64748b;
-    font-weight: 500;
-  }
+.project h1 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #fabd2f; /* Gruvbox bright yellow */
+  font-weight: 600;
+}
 
-  .project strong {
-    font-size: 1rem;
-    color: #0f172a;
-    font-weight: 600;
-  }
+.project h2 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #ebdbb2; /* Gruvbox foreground */
+  font-weight: 600;
+}
 
-  .project p {
-    margin: 0.5rem 0;
-    font-size: 0.9rem;
-    color: #475569;
-    line-height: 1.6;
-  }
+.project-footer {
+  font-size: 0.8rem;
+  color: #928374; /* Gruvbox gray muted */
+  font-weight: 500;
+}
 
-  /* ---------- Links ---------- */
-  .links a,
-  a.links {
-  color: #60a5fa;
+.project strong {
+  font-size: 1rem;
+  color: #fe5219; /* Gruvbox bright orange */
+  font-weight: 600;
+}
+
+.project p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #d5c4a1; /* Gruvbox light1 */
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* ---------- Links ---------- */
+.links a,
+a.links {
+  color: #83a598; /* Gruvbox bright blue */
   text-decoration: none;
   font-weight: 500;
   border-bottom: 1px solid transparent;
-  transition: color 0.2s ease;
-  }
+  transition: all 0.2s ease;
+}
 
-  .links a:hover,
-  a.links:hover {
-  color: #d8811d;
-  border-bottom-color: #d8811d;
-  }
+.links a:hover,
+a.links:hover {
+  color: #8ec07c; /* Gruvbox bright aqua */
+  border-bottom-color: #8ec07c;
+}
 
-  /* ---------- Footer ---------- */
-  footer {
+/* ---------- Footer ---------- */
+footer {
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.875rem;
-  color: #64748b;
-  background-color: #f1f5f9;
+  color: #928374;
+  background-color: #3c3836; /* Gruvbox dark1 */
   margin-top: 4rem;
-  border-top: 1px solid #e2e8f0;
-  }
+  border-top: 2px solid #504945;
+}
 
-  /* ---------- Responsive ---------- */
+/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .home-float {
     top: 15px;
@@ -182,39 +183,39 @@
     padding: 0.6rem;
     font-size: 1rem;
   }
-
+  
   .profile-pic {
     width: 100%;
     max-width: 300px;
   }
-
+  
   header h1 {
     font-size: 2rem;
   }
-
+  
   nav a {
     margin: 0 0.75rem;
     font-size: 0.9rem;
   }
-
+  
   section {
     margin: 2rem auto;
   }
-
+  
   summary h2 {
     font-size: 1.25rem;
   }
-
+  
   .year-content {
     padding: 0 1.5rem 1.5rem 1.5rem;
   }
-
+  
   .project,
   .course {
     padding: 1.25rem;
     margin-bottom: 1.25rem;
   }
-
+  
   .project h3,
   .course h3 {
     font-size: 1rem;
