@@ -1,0 +1,290 @@
+[
+  {
+    "code": "PHYS 473",
+    "title": "Applied Nuclear Physics",
+    "year": 3,
+    "topics": ["Nuclear Physics", "Radiation", "Radioactivity"],
+    "description": "Radioactive decay and radiations, nuclear properties, interactions of neutrons, physical principles of power reactors, nuclear fusion, radiation monitoring, and safety.",
+    "keywords": "phys 473 applied nuclear physics radiation detection radioactive decay isotopes neutron interactions nuclear reactors fusion fission dosimetry shielding nuclear instrumentation safety monitoring gamma spectroscopy particle detectors medical imaging nuclear power radiation safety"
+  },
+  {
+    "code": "ENPH 353",
+    "title": "Engineering Physics Project II",
+    "year": 3,
+    "topics": ["Robotics", "Machine Learning", "Simulation"],
+    "description": "Design and implement an autonomous robot simulation using Linux-based development tools. Apply machine learning for navigation and control. Deploy the robot in Gazebo running on a ROS infrastructure, integrating sensors, control systems, and real-time decision-making.",
+    "keywords": "enph 353 robotics reinforcement learning machine learning linux gazebo ros autonomous control neural networks computer vision imitation learning simulation sensors lidar camera navigation control systems embedded software real-time systems robotic perception python cpp"
+  },
+  {
+    "code": "PHYS 350",
+    "title": "Applications of Classical Mechanics",
+    "year": 3,
+    "topics": ["Advanced Mechanics", "Lagrangian", "Hamiltonian"],
+    "description": "Particle mechanics: Euler's equations, tops and gyroscopes, motion of the Earth, Lagrangian and Hamiltonian methods. Variational principles in optics and mechanics, Liouville's theorem, and the relationship between classical and quantum mechanics.",
+    "keywords": "phys 350 classical mechanics lagrangian hamiltonian dynamics oscillations rigid body motion variational principles energy conservation orbital mechanics gyroscopes rotation angular momentum analytical mechanics euler equations"
+  },
+  {
+    "code": "MECH 325",
+    "title": "Machine Design",
+    "year": 3,
+    "topics": ["Mechanical Design", "Machine Components", "Analysis"],
+    "description": "Selection of flexible drives, bearings, fluid power system components, and couplings. Design of shafts, bolted joints, and power screws. Design and selection of gears, gear trains, and mechanisms.",
+    "keywords": "mech 325 machine design mechanical engineering components stress analysis gears bearings shafts couplings bolted joints power screws design optimization fatigue analysis finite element analysis mechanical systems"
+  },
+  {
+    "code": "CPEN 312",
+    "title": "Digital Systems and Microcomputers",
+    "year": 3,
+    "topics": ["Digital Systems", "Microcomputers", "Embedded Systems"],
+    "description": "Boolean algebra, combinational and sequential logic design, memory and programmable devices, organization and operation of microcomputers, data/address bus organization, input-output interfacing, and assembly programming.",
+    "keywords": "cpen 312 digital systems microcomputers embedded hardware cpu microcontroller fpga logic gates sequential circuits combinational circuits assembly programming memory organization bus interfacing digital design computer architecture embedded programming"
+  },
+  {
+    "code": "MATH 307",
+    "title": "Applied Linear Algebra",
+    "year": 3,
+    "topics": ["Linear Algebra", "Matrices", "Computational Methods"],
+    "description": "Applications of linear algebra to problems in science and engineering; use of computer algebra systems for solving problems in linear algebra.",
+    "keywords": "math 307 applied linear algebra matrices eigenvalues eigenvectors systems computational vector spaces linear transformations matrix decomposition gaussian elimination least squares data analysis linear systems numerical computation"
+  },
+  {
+    "code": "MATH 305",
+    "title": "Applied Complex Analysis",
+    "year": 3,
+    "topics": ["Complex Analysis", "Contour Integration", "Functions"],
+    "description": "Functions of a complex variable, Cauchy-Riemann equations, contour integration, Laurent series, residues, integrals of multi-valued functions, Fourier transforms.",
+    "keywords": "math 305 complex analysis contour integration conformal mapping cauchy-riemann laurent series residue theorem analytic functions fourier transforms laplace transforms poles singularities"
+  },
+  {
+    "code": "PHYS 304",
+    "title": "Introduction to Quantum Mechanics",
+    "year": 3,
+    "topics": ["Quantum Mechanics", "Wave Functions", "Operators"],
+    "description": "Principles and applications of quantum mechanics, wave mechanics, the Schrödinger equation, expectation values, Hermitian operators, commuting observables, one-dimensional systems, harmonic oscillators, angular momentum, and three-dimensional systems.",
+    "keywords": "phys 304 quantum mechanics wave functions operators schrodinger uncertainty principle superposition eigenstates energy quantization harmonic oscillator angular momentum spin potential wells atomic structure probability density"
+  },
+  {
+    "code": "PHYS 301",
+    "title": "Electricity and Magnetism",
+    "year": 3,
+    "topics": ["Electromagnetism", "Fields", "Maxwell's Equations"],
+    "description": "Maxwell's equations and their applications, electrical fields and potentials of static charge distributions, current, fields of moving charges, magnetic fields, electromagnetic induction.",
+    "keywords": "phys 301 electromagnetism electrostatics magnetic fields maxwell equations induction gauss law faraday ampere lorentz force potentials charge distributions electromagnetic waves boundary conditions dielectrics capacitors"
+  },
+  {
+    "code": "MECH 280",
+    "title": "Introduction to Fluid Mechanics",
+    "year": 3,
+    "topics": ["Fluid Mechanics", "Flow", "Dynamics"],
+    "description": "Fluid properties, statics, kinematics, dynamics, energy and momentum principles, laminar and turbulent flow, pipe flow, and centrifugal pumps.",
+    "keywords": "mech 280 fluid mechanics flow dynamics viscosity laminar turbulent bernoulli equation continuity equation pumps pipes pressure drag lift cfd boundary layer fluid statics"
+  },
+  {
+    "code": "APSC 279",
+    "title": "Engineering Materials Laboratory",
+    "year": 3,
+    "topics": ["Materials Testing", "Laboratory", "Properties"],
+    "description": "Laboratory investigation of material properties including mechanical testing, microstructure analysis, and phase transformations.",
+    "keywords": "apsc 279 materials lab mechanical testing microstructure phase transformation metals ceramics polymers microscopy tensile testing hardness testing fracture analysis"
+  },
+  {
+    "code": "ELEC 221",
+    "title": "Signals and Systems",
+    "year": 3,
+    "topics": ["Signal Processing", "Systems Theory", "Transforms"],
+    "description": "LTI systems, convolution, Fourier series and transforms, z-transform, sampling, filtering, modulation, feedback systems, and stability.",
+    "keywords": "elec 221 signals systems fourier transform laplace transform z-transform convolution time-domain frequency-domain sampling modulation filtering feedback stability control theory"
+  },
+  {
+    "code": "APSC 278",
+    "title": "Engineering Materials",
+    "year": 3,
+    "topics": ["Materials Science", "Properties", "Structure"],
+    "description": "Atomic bonding, crystal structures, mechanical properties of metals, ceramics, polymers, and composites; corrosion, heat treatment, and materials selection.",
+    "keywords": "apsc 278 engineering materials metals ceramics polymers composites structure bonding crystal defects corrosion heat treatment phase diagrams mechanical properties materials science testing"
+  },
+  {
+    "code": "ENPH 270",
+    "title": "Mechanics II",
+    "year": 2,
+    "topics": ["Dynamics", "Kinematics", "Rigid Body Mechanics"],
+    "description": "Systems of particles, kinematics and kinetics of rigid bodies, energy and momentum, rotating coordinates.",
+    "keywords": "enph 270 mechanics dynamics kinematics rigid body energy momentum rotation angular velocity torque plane motion particle systems"
+  },
+  {
+    "code": "MECH 260",
+    "title": "Introduction to Mechanics of Materials",
+    "year": 2,
+    "topics": ["Mechanics", "Stress", "Strain", "Deformation"],
+    "description": "Frames and trusses, normal and shear stresses and strains, bending, torsion, transformation of stress and strain, Mohr's circle, failure criteria.",
+    "keywords": "mech 260 mechanics of materials stress strain deformation bending torsion shear moment diagrams mohr circle trusses beams yield strength failure criteria material properties"
+  },
+  {
+    "code": "ENPH 259",
+    "title": "Experimental Techniques",
+    "year": 2,
+    "topics": ["Laboratory Techniques", "Measurement", "Instrumentation"],
+    "description": "Experimental methods in engineering physics including measurement techniques, data analysis, uncertainty analysis, and technical reporting.",
+    "keywords": "enph 259 experimental techniques laboratory instrumentation data acquisition measurement uncertainty analysis calibration sensors oscilloscopes data logging error propagation"
+  },
+  {
+    "code": "MATH 257",
+    "title": "Partial Differential Equations",
+    "year": 2,
+    "topics": ["PDEs", "Wave Equation", "Heat Equation"],
+    "description": "Introduction to partial differential equations; Fourier series; the heat, wave, and potential equations; boundary-value problems; numerical methods.",
+    "keywords": "math 257 partial differential equations pde wave heat laplace boundary value problems fourier series separation of variables diffusion equation potential theory"
+  },
+  {
+    "code": "ENPH 257",
+    "title": "Heat and Thermodynamics",
+    "year": 2,
+    "topics": ["Thermodynamics", "Heat Transfer", "Energy"],
+    "description": "Thermal properties of matter, heat transfer by conduction, convection, and radiation, heat engines, refrigeration, and the laws of thermodynamics.",
+    "keywords": "enph 257 thermodynamics heat energy entropy temperature cycles engines refrigeration conduction convection radiation kinetic theory gas laws phase transitions"
+  },
+  {
+    "code": "MATH 255",
+    "title": "Ordinary Differential Equations",
+    "year": 2,
+    "topics": ["ODEs", "Systems", "Linear Equations"],
+    "description": "Linear and nonlinear systems, phase plane analysis, Laplace transforms, and numerical methods.",
+    "keywords": "math 255 ordinary differential equations ode linear nonlinear systems laplace transform phase plane stability numerical methods modeling"
+  },
+  {
+    "code": "ENPH 253",
+    "title": "Introduction to Instrument Design",
+    "year": 2,
+    "topics": ["Robotics", "Embedded Systems", "Control Systems"],
+    "description": "Mechanical and electrical design, sensors and actuators, microcontroller implementation, and system integration. Includes engineering design reviews and presentations.",
+    "keywords": "enph 253 instrument design robotics autonomous systems embedded microcontroller esp32 state machine sensors actuators pcb electronics system integration mechanical design firmware control algorithms"
+  },
+  {
+    "code": "PHYS 250",
+    "title": "Introduction to Modern Physics",
+    "year": 2,
+    "topics": ["Quantum Physics", "Relativity", "Atomic Physics"],
+    "description": "Wave-particle duality, special relativity, atomic and nuclear processes, and introduction to quantum mechanical devices and techniques.",
+    "keywords": "phys 250 modern physics quantum relativity atomic nuclear solid state wave-particle duality photoelectric effect bohr model special relativity quantum devices"
+  },
+  {
+    "code": "CPEN 221",
+    "title": "Software Construction I",
+    "year": 2,
+    "topics": ["Software Engineering", "Java", "Object-Oriented Programming"],
+    "description": "Design, implementation, and reasoning about software systems: abstraction, specification, testing, verification, design patterns, concurrency.",
+    "keywords": "cpen 221 software engineering java object-oriented programming design patterns abstraction testing verification concurrency software architecture algorithms data structures inheritance polymorphism"
+  },
+  {
+    "code": "MATH 217",
+    "title": "Multivariable and Vector Calculus",
+    "year": 2,
+    "topics": ["Calculus", "Vector Analysis", "Integration"],
+    "description": "Partial differentiation, multiple integration, vector fields, line and surface integrals, divergence and Stokes' theorems.",
+    "keywords": "math 217 multivariable calculus vector calculus gradient divergence curl surface integrals line integrals stokes theorem divergence theorem partial derivatives optimization"
+  },
+  {
+    "code": "ELEC 204",
+    "title": "Linear Circuits",
+    "year": 2,
+    "topics": ["Electrical Engineering", "Circuit Analysis", "Networks"],
+    "description": "Analysis of electric and electronic circuits, RLC circuits, phasors, op-amps, diodes, BJT, and FET circuits.",
+    "keywords": "elec 204 linear circuits ac dc rlc analysis bode plot laplace transform thevenin norton op-amp diodes transistors filters circuit theory"
+  },
+  {
+    "code": "APSC 202",
+    "title": "Technical Communication Engineering Physics",
+    "year": 2,
+    "topics": ["Technical Writing", "Communication", "Reports"],
+    "description": "Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations.",
+    "keywords": "apsc 202 technical communication engineering writing presentations reports documentation business correspondence proposal writing professional communication"
+  },
+  {
+    "code": "PHYS 170",
+    "title": "Mechanics I",
+    "year": 1,
+    "topics": ["Classical Mechanics", "Kinematics", "Dynamics"],
+    "description": "Statics of particles and rigid bodies, kinematics, Newton's laws, friction, impulse, momentum, work, and energy.",
+    "keywords": "phys 170 mechanics statics dynamics energy momentum rotation oscillations equilibrium friction work power force torque newton laws"
+  },
+  {
+    "code": "PHYS 159",
+    "title": "Introductory Physics Laboratory for Engineers",
+    "year": 1,
+    "topics": ["Laboratory", "Experiments", "Measurement"],
+    "description": "Experimental design, measurement and analysis techniques in introductory physics.",
+    "keywords": "phys 159 physics laboratory experiments measurement uncertainty analysis sensors data acquisition data analysis graphing report writing"
+  },
+  {
+    "code": "PHYS 158",
+    "title": "Introductory Physics for Engineers II",
+    "year": 1,
+    "topics": ["Physics", "Electricity", "Magnetism", "Waves"],
+    "description": "Electricity and magnetism, DC and AC circuits, optics.",
+    "keywords": "phys 158 electricity magnetism circuits ac dc optics waves fields light lenses interference electromagnetism"
+  },
+  {
+    "code": "PHYS 157",
+    "title": "Introductory Physics for Engineers I",
+    "year": 1,
+    "topics": ["Physics", "Mechanics", "Waves"],
+    "description": "Heat, thermodynamics, oscillations, waves, and sound.",
+    "keywords": "phys 157 mechanics waves thermodynamics heat oscillations sound motion forces energy conservation"
+  },
+  {
+    "code": "MATH 152",
+    "title": "Linear Systems",
+    "year": 1,
+    "topics": ["Linear Algebra", "Matrices", "Vectors"],
+    "description": "2D and 3D geometry, vectors and matrices, eigenvalues, vibrations, and computer solutions of large systems.",
+    "keywords": "math 152 linear algebra matrices vectors eigenvalues eigenvectors gaussian elimination systems vibrations matrix operations geometry computational"
+  },
+  {
+    "code": "WRDS 150",
+    "title": "Writing and Research in the Disciplines",
+    "year": 1,
+    "topics": ["Writing", "Research", "Communication"],
+    "description": "Academic writing and research skills including argumentation, critical reading, source integration, and documentation.",
+    "keywords": "wrds 150 writing research communication academic argumentation critical reading source integration citation english composition"
+  },
+  {
+    "code": "MATH 101",
+    "title": "Integral Calculus with Applications",
+    "year": 1,
+    "topics": ["Calculus", "Integration", "Applications"],
+    "description": "Definite integral, integration techniques, applications, modeling, and infinite series.",
+    "keywords": "math 101 integral calculus integration series area volume applications numerical methods convergence"
+  },
+  {
+    "code": "MATH 100",
+    "title": "Differential Calculus with Applications",
+    "year": 1,
+    "topics": ["Calculus", "Derivatives", "Optimization"],
+    "description": "Derivatives of elementary functions, applications, graphing, optimization, and modeling.",
+    "keywords": "math 100 differential calculus derivatives limits optimization continuity slope tangents functions rates change"
+  },
+  {
+    "code": "APSC 160",
+    "title": "Introduction to Computation in Engineering Design",
+    "year": 1,
+    "topics": ["Programming", "C", "Algorithms", "Engineering"],
+    "description": "Structured programming in C with applications to engineering problem solving, including algorithms, control structures, functions, arrays, and file I/O.",
+    "keywords": "apsc 160 programming c algorithms computation control structures functions arrays file io structured programming problem solving engineering applications"
+  },
+  {
+    "code": "APSC 101",
+    "title": "Introduction to Engineering II",
+    "year": 1,
+    "topics": ["Engineering Design", "Communication", "Project Work"],
+    "description": "Engineering design process, sustainability, prototype testing, team functioning, engineering graphics, and technical communication.",
+    "keywords": "apsc 101 engineering design projects teamwork communication sustainability prototyping testing graphics technical communication"
+  },
+  {
+    "code": "APSC 100",
+    "title": "Introduction to Engineering I",
+    "year": 1,
+    "topics": ["Engineering Design", "Teamwork", "Project Management"],
+    "description": "Introduction to engineering disciplines, ethics, design process, sustainability, prototyping, and communication.",
+    "keywords": "apsc 100 engineering design teamwork ethics sustainability prototyping project management design process communication"
+  }
+]
