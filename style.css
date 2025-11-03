@@ -195,6 +195,7 @@ footer {
     transition: border-color 0.3s;
     background-color: #3c3836;
     color: #fe8019;
+    text-align: center;
   }
 
   .search-box:focus {
