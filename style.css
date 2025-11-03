@@ -206,6 +206,8 @@ footer {
     margin: 0.8rem 0;
     font-size: 0.95rem;
     font-style: italic;
+    display: flex;
+    justify-content: center;
   }
 
   .project.hidden {

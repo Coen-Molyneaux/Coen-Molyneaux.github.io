@@ -56,13 +56,10 @@ function initializeSearch() {
     }
   }
 
-  // Event listener for live search
   searchBox.addEventListener('input', performSearch);
 
-  // Initialize count
   const total = document.querySelectorAll('.course-item').length;
   resultsCount.textContent = `Showing all ${total} courses`;
 }
 
-// Run everything
 loadCourses();

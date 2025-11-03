@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Neural Network for Predicting Formation Properties in Oil & Gas Wells",
+    "status": "Ongoing",
+    "software_stack": ["Python", "TensorFlow", "Kaggle"],
+    "description": [
+      "Training a small neural net to predict rock properties such as porosity and permeability from well log data. The dataset consists of roughly 8000 lines of well log data from the Kansas Geological Survey, containing resistivity, spontaneous potential, gamma ray, bulk density, and neutron/density porosity measurements.",
+      "The goal is to use typical well log data like neutron and gamma ray logs to predict complex rock properties such as porosity and permeability that are difficult and expensive to measure directly. This project applies machine learning in an oil and gas context to gain experience with geophysical data modeling."
+    ],
+    "links": {
+      "GitHub": "https://github.com/Coen-Molyneaux/nuclear-log-nn",
+      "Dataset": "https://www.kaggle.com/datasets/prateekvyas/well-log-data"
+    },
+    "last_updated": "October 2025"
+  },
+  {
+    "title": "Neural Networks and Board Games",
+    "status": "Ongoing",
+    "software_stack": ["React", "Python", "TensorFlow"],
+    "description": [
+      "Extending my first personal project (a Tic-Tac-Toe game) by adding neural-net-powered bots, a modern web frontend, and additional board games.",
+      "On the neural network side, I aim to explore training methods such as imitation learning and reinforcement learning. On the web side, I’m learning React, hosting fundamentals, and backend integration to link trained neural nets with the user interface."
+    ],
+    "links": {
+      "GitHub": "https://github.com/Coen-Molyneaux/board-games-and-ml"
+    },
+    "last_updated": "October 2025"
+  },
+  {
+    "title": "Pet Rescue: Autonomous Robot",
+    "status": "Completed",
+    "software_stack": ["C++", "C", "Python", "KiCad", "Onshape"],
+    "fabrication_stack": ["Waterjet", "Laser Cutting", "Milling", "Turning (Lathe)", "3D Printing"],
+    "description": [
+      "My ENPH 253 team (Luca Jones, Harchetan Chohan, Taichi Kamei) designed and built an autonomous rescue robot capable of navigating a complex obstacle course, identifying and retrieving 'pet' targets, and returning them safely to the home zone—all without human control.",
+      "The robot’s brain was an ESP32 microcontroller running a custom state machine to manage modes like line following and pet detection.",
+      "Line following was achieved using PID control with infrared LEDs and phototransistors to detect tape reflectance, allowing the robot to stay on track automatically.",
+      "Pet detection used 2D time-of-flight sensors to build discrete depth maps, distinguishing cylindrical targets from background objects.",
+      "For manipulation, we built a 2-link planar arm with a 4-bar claw, combining DC motors with encoders and PID control to create custom servos. The arm and claw were driven by 25 kg servos.",
+      "To return pets to the safe area, we used a bucket-and-zipline mechanism with a continuous cascade lift powered by a DC motor and paracord spool."
+    ],
+    "links": {
+      "GitHub": "https://github.com/Luca-Jones/enph-253-pet-rescue",
+      "YouTube": "https://youtu.be/9oEp3KTkgeU",
+      "News": "https://www.cbc.ca/player/play/video/9.6862226"
+    },
+    "last_updated": "August 2025"
+  },
+  {
+    "title": "Document Translator",
+    "status": "Completed",
+    "software_stack": ["Python", "Google Cloud SDK (Translate, Vision, Storage)"],
+    "description": [
+      "Developed during my internship at Condor Energies, this pipeline automates the translation of documents from Uzbek, Russian, and Kazakh to English.",
+      "It handles scanned PDFs, Word, Excel, and PowerPoint files—each with unique challenges for text extraction and reformatting."
+    ],
+    "details": {
+      "Scanned_PDFs": "Used OCR via Google Cloud Vision to extract text, Google Translate API for translation, and then reconstructed translated PDFs preserving layout and positioning by tracking pixel coordinates.",
+      "Office_Documents": "Used python-docx, openpyxl, and python-pptx to extract, translate, and rewrite text back into structured documents."
+    },
+    "last_updated": "May 2025"
+  },
+  {
+    "title": "Production Forecasting Automation Tool",
+    "status": "Completed",
+    "software_stack": ["Microsoft VBA"],
+    "description": [
+      "Built at Condor Energies to automate production forecasting for natural gas wells. The tool ingests and preprocesses historical data, then performs decline-curve analysis to forecast future rates.",
+      "The system generates field-level and well-level forecasts with visualizations and summary reports, reducing approximately three days of reservoir engineering work to a few hours monthly."
+    ],
+    "links": {
+      "Reference": "https://manual.whitson.com/modules/well-performance/decline-curve-analysis/"
+    },
+    "last_updated": "May 2025"
+  },
+  {
+    "title": "Tic Tac Toe Game with Object-Oriented Principles",
+    "status": "Completed",
+    "software_stack": ["Java"],
+    "description": [
+      "A simple Tic-Tac-Toe game built in Java to practice Object-Oriented Programming fundamentals before taking CPEN 221.",
+      "Demonstrates encapsulation, inheritance, and modular class design."
+    ],
+    "links": {
+      "GitHub": "https://github.com/Coen-Molyneaux/Tic-Tac-Toe-Game"
+    },
+    "last_updated": "August 2024"
+  }
+]
