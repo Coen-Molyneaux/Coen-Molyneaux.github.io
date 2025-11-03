@@ -35,7 +35,7 @@ async function loadProjects() {
           ` : ""}
 
           <span class="project-footer">
-            Status: ${project.status} </br>
+            Status: ${project.status} 
             Last updated ${project.last_updated || "N/A"}
           </span>
         </div>
