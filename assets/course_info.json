@@ -123,9 +123,15 @@
     "code": "ENPH 259",
     "title": "Experimental Techniques",
     "year": 2,
-    "topics": ["Laboratory Techniques", "Measurement", "Instrumentation"],
-    "description": "Experimental methods in engineering physics including measurement techniques, data analysis, uncertainty analysis, and technical reporting.",
-    "keywords": "enph 259 experimental techniques laboratory instrumentation data acquisition measurement uncertainty analysis calibration sensors oscilloscopes data logging error propagation"
+    "topics": [
+      "Laboratory Techniques",
+      "Measurement",
+      "Instrumentation",
+      "Analog Circuit Design",
+      "Motor Driver Circuits"
+    ],
+    "description": "Hands-on laboratory course focused on building and characterizing analog and digital circuits. Students design a motor driver circuit using DACs, D-latches, op-amps, and logic components, while learning to use oscilloscopes, function generators, and multimeters. Emphasis on data collection, uncertainty analysis, and maintaining a detailed laboratory logbook.",
+    "keywords": "enph 259 experimental techniques analog electronics op amp dac dlatch motor driver circuit function generator oscilloscope instrumentation measurement uncertainty analysis lab report data acquisition calibration sensors error propagation"
   },
   {
     "code": "MATH 257",
@@ -153,11 +159,17 @@
   },
   {
     "code": "ENPH 253",
-    "title": "Introduction to Instrument Design",
+    "title": "Introduction to Instrument Design (Pet Rescue: Autonomous Robot)",
     "year": 2,
-    "topics": ["Robotics", "Embedded Systems", "Control Systems"],
-    "description": "Mechanical and electrical design, sensors and actuators, microcontroller implementation, and system integration. Includes engineering design reviews and presentations.",
-    "keywords": "enph 253 instrument design robotics autonomous systems embedded microcontroller esp32 state machine sensors actuators pcb electronics system integration mechanical design firmware control algorithms"
+    "topics": [
+      "Robotics",
+      "Embedded Systems",
+      "Control Systems",
+      "Mechanical Design",
+      "Electronics Prototyping"
+    ],
+    "description": "A project-based course where students design, build, and test an autonomous robot to complete a complex task without human intervention. The course integrates mechanical design, electronic circuit development, and microcontroller programming. Students apply principles of feedback control, sensing, and actuation while fabricating custom components and iteratively improving system performance through testing and analysis.",
+    "keywords": "enph 253 instrument design robotics esp32 embedded systems pid control op amp state machine sensors actuators 2d tof lidar dc motor servo claw manipulator kicad onshape autonomous robot fabrication laser cutting milling turning 3d printing waterjet"
   },
   {
     "code": "PHYS 250",
