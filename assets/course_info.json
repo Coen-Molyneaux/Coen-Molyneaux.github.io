@@ -1,11 +1,11 @@
 [
   {
-    "code": "PHYS 473",
-    "title": "Applied Nuclear Physics",
+    "code": "ELEC 331",
+    "title": "Computer Communications",
     "year": 3,
-    "topics": ["Nuclear Physics", "Radiation", "Radioactivity"],
-    "description": "Radioactive decay and radiations, nuclear properties, interactions of neutrons, physical principles of power reactors, nuclear fusion, radiation monitoring, and safety.",
-    "keywords": "phys 473 applied nuclear physics radiation detection radioactive decay isotopes neutron interactions nuclear reactors fusion fission dosimetry shielding nuclear instrumentation safety monitoring gamma spectroscopy particle detectors medical imaging nuclear power radiation safety"
+    "topics": ["Computer Networks", "Internet Protocols", "Data Communications"],
+    "description": "Analysis, design, and implementation of computer networks and communication protocols, including layered Internet architecture, TCP/IP, routing algorithms, reliable data transfer, congestion control, multiple access protocols, and local area networks.",
+    "keywords": "elec 331 computer communications computer networks tcp ip udp routing algorithms congestion control flow control ethernet lan wan packet switching datagram networks virtual circuits sockets network programming application layer protocols http ftp smtp peer to peer networking"
   },
   {
     "code": "ENPH 353",
