@@ -1,5 +1,23 @@
 [
   {
+    "title": "Simulated Autonomous Robot",
+    "status": "Completed",
+    "software_stack": ["Python w/ TensorFlow and OpenCV", "ROS", "Gazebo", "Qt", "Linux"],
+    "description": [
+      "This competition involved programming an autonomous robot in a simulated Gazebo environment using ROS to navigate a multi-segment course of increasing difficulty, including paved roads, grass terrain, pedestrian crossings, roundabouts with moving vehicles, and a tunnel.",
+      "In addition to navigation, the robot was required to detect, read, and interpret clue boards placed along the course in order to solve a mystery.",
+      "The robot's driving system was built using imitation learning with convolutional neural networks (CNNs). Instead of a single monolithic model, separate CNNs were trained for each terrain type (pavement, grass, and mountain), improving inference speed, robustness, and modularity.",
+      "Clue board reading was handled using classical computer vision techniques for sign detection and geometric correction, followed by CNN-based character recognition to read the text on each clue board.", "See the final report document linked below for a more in-depth review of the methods used"
+    ],
+    "images": [
+      "assets/353_main_img.png"
+    ],
+    "links": {
+      "Final Report Document": "assets/ENPH 353 Final Report-1.pdf"
+    },
+    "last_updated": "December 2025"
+  },
+  {
     "title": "Neural Network for Predicting Formation Properties in Oil & Gas Wells",
     "status": "Ongoing",
     "software_stack": ["Python", "TensorFlow", "Kaggle"],

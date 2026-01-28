@@ -24,6 +24,14 @@ async function loadProjects() {
               : `<p>${project.description}</p>`
             : ""}
 
+          ${project.images ? `
+            <div class="project-images">
+              ${project.images.map(src =>
+                `<img src="${src}" alt="${project.title} image">`
+              ).join("")}
+            </div>
+          ` : ""}
+          
           ${project.links ? `
             <p class="links">
               ${Object.entries(project.links)
@@ -35,7 +43,7 @@ async function loadProjects() {
           ` : ""}
 
           <span class="project-footer">
-            Status: ${project.status} 
+            Status: ${project.status} <br>
             Last updated ${project.last_updated || "N/A"}
           </span>
         </div>
