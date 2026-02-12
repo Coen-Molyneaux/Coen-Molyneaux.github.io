@@ -2,8 +2,9 @@ async function loadProjects() {
   try {
     const response = await fetch("assets/project_info.json");
     const projects = await response.json();
-
     const container = document.getElementById("projects");
+
+
 
     container.innerHTML = projects
       .map(project => `
